@@ -1,5 +1,7 @@
 # heroku-starter
 
+Demo: https://kotlin-spark-heroku-starter.herokuapp.com/
+
 A barebones Java app, which can easily be deployed to Heroku.
 
 This application supports the [Getting Started with Java on Heroku](https://devcenter.heroku.com/articles/getting-started-with-java) article - check it out.
@@ -16,6 +18,16 @@ $ cd heroku-starter
 $ mvn install
 $ heroku local:start
 ```
+
+Or you can start directly using maven
+
+``sh
+$ git clone https://github.com/tbxark/kotlin-spark-heroku-starter.git
+$ cd heroku-starter
+$ mvn install
+$ mvn compile exec:java -Dexec.mainClass="com.tbxark.ApplicationKt"
+
+``
 
 Your app should now be running on [localhost:5000](http://localhost:5000/).
 
