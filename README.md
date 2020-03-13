@@ -1,3 +1,4 @@
+![Java CI with Maven](https://github.com/TBXark/kotlin-spark-heroku-starter/workflows/Java%20CI%20with%20Maven/badge.svg)
 # heroku-starter
 
 Demo: https://kotlin-spark-heroku-starter.herokuapp.com/
