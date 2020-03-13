@@ -22,13 +22,13 @@ $ heroku local:start
 
 Or you can start directly using maven
 
-``sh
+```sh
 $ git clone https://github.com/tbxark/kotlin-spark-heroku-starter.git
 $ cd heroku-starter
 $ mvn install
 $ mvn compile exec:java -Dexec.mainClass="com.tbxark.ApplicationKt"
 
-``
+```
 
 Your app should now be running on [localhost:5000](http://localhost:5000/).
 
